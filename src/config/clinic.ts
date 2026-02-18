@@ -1,13 +1,13 @@
 export const clinic = {
   name: "Electricista, Lampista y Fontanero URGENCIA 24/7",
-  logo: "/images/logo.png",
+  logo: null,
   tagline: "Electricista y Fontanero 24/7 en Barcelona - Urgencias",
   description: "Electricista, Lampista y Fontanero URGENCIA 24/7 en Barcelona ofrece servicios de emergencia las 24 horas. Especializados en reparación de fugas, instalaciones eléctricas, sistemas de filtración y cambio de grifería. Con 5 estrellas en Google y 42 reseñas que avalan nuestra rapidez, profesionalidad y eficacia. Atendemos urgencias inmediatas con garantía de calidad.",
   colors: {
-    primary: "#0964ff",
-    secondary: "#031e4d",
     accent: "#005aff",
-    neutral: "#ebf3ff"
+    neutral: "#ebf3ff",
+    primary: "#0964ff",
+    secondary: "#031e4d"
   },
   phone: "666 52 66 61",
   whatsapp: "+34666526661",
@@ -86,91 +86,91 @@ export const clinic = {
   services: [
     {
       id: "reparacion-fugas",
+      icon: "Droplet",
       name: "Reparación de Fugas",
-      description: "Detectamos y reparamos todo tipo de fugas de agua en tuberías, grifos, cisternas y calentadores. Actuación inmediata para evitar daños mayores en tu hogar. Servicio disponible 24/7 con desplazamiento urgente.",
       benefits: [
         "Detección rápida del origen de la fuga",
         "Reparación definitiva sin obras innecesarias",
         "Disponibilidad inmediata las 24 horas"
       ],
-      icon: "Droplet"
+      description: "Detectamos y reparamos todo tipo de fugas de agua en tuberías, grifos, cisternas y calentadores. Actuación inmediata para evitar daños mayores en tu hogar. Servicio disponible 24/7 con desplazamiento urgente."
     },
     {
       id: "instalacion-griferia",
+      icon: "Droplet",
       name: "Instalación de Grifería",
-      description: "Instalamos y cambiamos grifos de cocina, baño y ducha con asesoramiento personalizado. Te recomendamos los modelos más adecuados según tus necesidades y presupuesto. Instalación profesional con garantía de estanqueidad.",
       benefits: [
         "Asesoramiento en la elección de grifos",
         "Instalación perfecta sin goteos",
         "Amplia experiencia en todo tipo de griferías"
       ],
-      icon: "Droplet"
+      description: "Instalamos y cambiamos grifos de cocina, baño y ducha con asesoramiento personalizado. Te recomendamos los modelos más adecuados según tus necesidades y presupuesto. Instalación profesional con garantía de estanqueidad."
     },
     {
       id: "sistemas-filtracion",
+      icon: "Droplet",
       name: "Sistemas de Filtración",
-      description: "Instalación experta de sistemas de filtración de agua para mejorar la calidad del agua en tu hogar. Desde filtros bajo fregadero hasta sistemas completos de osmosis. Asesoramiento técnico especializado.",
       benefits: [
         "Expertos en instalaciones de filtración",
         "Mejora la calidad del agua de tu hogar",
         "Instalación profesional garantizada"
       ],
-      icon: "Droplet"
+      description: "Instalación experta de sistemas de filtración de agua para mejorar la calidad del agua en tu hogar. Desde filtros bajo fregadero hasta sistemas completos de osmosis. Asesoramiento técnico especializado."
     },
     {
       id: "instalaciones-electricas",
+      icon: "Zap",
       name: "Instalaciones Eléctricas",
-      description: "Realizamos todo tipo de instalaciones eléctricas: puntos de luz, enchufes, cuadros eléctricos y boletines. Trabajamos con rapidez y dejamos todo en perfecto estado. Cumplimos toda la normativa vigente.",
       benefits: [
         "Instalaciones seguras y certificadas",
         "Trabajo limpio y ordenado",
         "Boletines eléctricos oficiales"
       ],
-      icon: "Zap"
+      description: "Realizamos todo tipo de instalaciones eléctricas: puntos de luz, enchufes, cuadros eléctricos y boletines. Trabajamos con rapidez y dejamos todo en perfecto estado. Cumplimos toda la normativa vigente."
     },
     {
       id: "reparacion-averias-electricas",
+      icon: "Zap",
       name: "Reparación de Averías Eléctricas",
-      description: "Solucionamos averías eléctricas urgentes: cortocircuitos, diferenciales que saltan, enchufes que no funcionan y problemas en el cuadro eléctrico. Diagnóstico rápido y reparación eficaz sin complicaciones.",
       benefits: [
         "Diagnóstico preciso de la avería",
         "Reparación rápida y eficaz",
         "Servicio de urgencia 24/7"
       ],
-      icon: "Zap"
+      description: "Solucionamos averías eléctricas urgentes: cortocircuitos, diferenciales que saltan, enchufes que no funcionan y problemas en el cuadro eléctrico. Diagnóstico rápido y reparación eficaz sin complicaciones."
     },
     {
       id: "cambio-lamparas",
+      icon: "Zap",
       name: "Cambio de Lámparas y Luminarias",
-      description: "Instalación y cambio rápido de lámparas, plafones, focos LED y todo tipo de luminarias. Asesoramiento sobre las mejores opciones de iluminación para cada espacio. Trabajo ágil y eficiente.",
       benefits: [
         "Instalación rápida y profesional",
         "Asesoramiento en iluminación LED",
         "Servicio inmediato"
       ],
-      icon: "Zap"
+      description: "Instalación y cambio rápido de lámparas, plafones, focos LED y todo tipo de luminarias. Asesoramiento sobre las mejores opciones de iluminación para cada espacio. Trabajo ágil y eficiente."
     },
     {
       id: "fontaneria-general",
+      icon: "Droplet",
       name: "Fontanería General",
-      description: "Todo tipo de trabajos de fontanería: instalación de sanitarios, cambio de tuberías, reparación de cisternas, instalación de calentadores. Trabajamos con seriedad y dejamos todo impecable.",
       benefits: [
         "Amplia experiencia en fontanería",
         "Materiales de calidad garantizada",
         "Limpieza total al finalizar"
       ],
-      icon: "Droplet"
+      description: "Todo tipo de trabajos de fontanería: instalación de sanitarios, cambio de tuberías, reparación de cisternas, instalación de calentadores. Trabajamos con seriedad y dejamos todo impecable."
     },
     {
       id: "desatascos",
+      icon: "Droplet",
       name: "Desatascos Urgentes",
-      description: "Desatascamos tuberías, desagües, inodoros y bajantes con equipamiento profesional. Servicio de urgencia disponible 24/7 para resolver atascos que no pueden esperar. Solución rápida y garantizada.",
       benefits: [
         "Equipos profesionales de desatasco",
         "Solución inmediata del problema",
         "Disponibilidad 24 horas"
       ],
-      icon: "Droplet"
+      description: "Desatascamos tuberías, desagües, inodoros y bajantes con equipamiento profesional. Servicio de urgencia disponible 24/7 para resolver atascos que no pueden esperar. Solución rápida y garantizada."
     }
   ],
   process: [
@@ -197,24 +197,24 @@ export const clinic = {
   ],
   whyUs: [
     {
+      icon: "Award",
       title: "5 Estrellas en Google",
-      description: "Contamos con una valoración perfecta de 5 estrellas basada en 42 reseñas reales de clientes satisfechos en Google. Nuestros clientes destacan nuestra rapidez, profesionalidad, eficacia y trato excelente. Una garantía de calidad contrastada.",
-      icon: "Award"
+      description: "Contamos con una valoración perfecta de 5 estrellas basada en 42 reseñas reales de clientes satisfechos en Google. Nuestros clientes destacan nuestra rapidez, profesionalidad, eficacia y trato excelente. Una garantía de calidad contrastada."
     },
     {
+      icon: "Clock",
       title: "Disponibilidad 24/7",
-      description: "Atendemos urgencias las 24 horas del día, los 7 días de la semana, incluidos festivos. Cuando tienes una fuga o una avería eléctrica no puede esperar, por eso estamos siempre disponibles para acudir rápidamente y resolver tu emergencia.",
-      icon: "Clock"
+      description: "Atendemos urgencias las 24 horas del día, los 7 días de la semana, incluidos festivos. Cuando tienes una fuga o una avería eléctrica no puede esperar, por eso estamos siempre disponibles para acudir rápidamente y resolver tu emergencia."
     },
     {
+      icon: "Zap",
       title: "Rapidez y Eficacia",
-      description: "Nuestros clientes valoran especialmente nuestra agilidad y capacidad resolutiva. Trabajamos de forma eficiente, sin complicaciones innecesarias, y solucionamos el problema en el menor tiempo posible. Nos desplazamos rápido y ejecutamos con profesionalidad.",
-      icon: "Zap"
+      description: "Nuestros clientes valoran especialmente nuestra agilidad y capacidad resolutiva. Trabajamos de forma eficiente, sin complicaciones innecesarias, y solucionamos el problema en el menor tiempo posible. Nos desplazamos rápido y ejecutamos con profesionalidad."
     },
     {
+      icon: "CheckCircle",
       title: "Trabajo Impecable",
-      description: "Dejamos todo en perfecto estado al finalizar. Trabajamos con seriedad, limpieza y atención al detalle. Además, te damos buenos consejos para el mantenimiento y te asesoramos sobre las mejores soluciones adaptadas a tus necesidades específicas.",
-      icon: "CheckCircle"
+      description: "Dejamos todo en perfecto estado al finalizar. Trabajamos con seriedad, limpieza y atención al detalle. Además, te damos buenos consejos para el mantenimiento y te asesoramos sobre las mejores soluciones adaptadas a tus necesidades específicas."
     }
   ],
   team: [
@@ -265,42 +265,39 @@ export const clinic = {
   ],
   faq: [
     {
-      question: "¿Atendéis urgencias las 24 horas?",
-      answer: "Sí, Electricista, Lampista y Fontanero URGENCIA 24/7 está disponible las 24 horas del día, los 7 días de la semana, incluidos festivos. Atendemos emergencias de fontanería y electricidad con desplazamiento inmediato en Barcelona. Llámanos al 666 52 66 61 en cualquier momento y acudiremos rápidamente."
+      answer: "Sí, Electricista, Lampista y Fontanero URGENCIA 24/7 está disponible las 24 horas del día, los 7 días de la semana, incluidos festivos. Atendemos emergencias de fontanería y electricidad con desplazamiento inmediato en Barcelona. Llámanos al 666 52 66 61 en cualquier momento y acudiremos rápidamente.",
+      question: "¿Atendéis urgencias las 24 horas?"
     },
     {
-      question: "¿Cuánto tardáis en llegar en caso de urgencia?",
-      answer: "Nuestro tiempo de respuesta es muy rápido. Dependiendo de la zona de Barcelona y el momento del día, normalmente llegamos en menos de una hora. En casos de emergencias graves como fugas importantes, priorizamos el desplazamiento para minimizar los daños en tu hogar."
+      answer: "Nuestro tiempo de respuesta es muy rápido. Dependiendo de la zona de Barcelona y el momento del día, normalmente llegamos en menos de una hora. En casos de emergencias graves como fugas importantes, priorizamos el desplazamiento para minimizar los daños en tu hogar.",
+      question: "¿Cuánto tardáis en llegar en caso de urgencia?"
     },
     {
-      question: "¿Dais presupuesto antes de empezar el trabajo?",
-      answer: "Sí, siempre. Nos desplazamos, evaluamos el problema y te damos un presupuesto cerrado antes de comenzar cualquier trabajo. No hay sorpresas en el precio final. Solo empezamos cuando tú apruebas el presupuesto y estás de acuerdo con las condiciones."
+      answer: "Sí, siempre. Nos desplazamos, evaluamos el problema y te damos un presupuesto cerrado antes de comenzar cualquier trabajo. No hay sorpresas en el precio final. Solo empezamos cuando tú apruebas el presupuesto y estás de acuerdo con las condiciones.",
+      question: "¿Dais presupuesto antes de empezar el trabajo?"
     },
     {
-      question: "¿Qué tipo de trabajos de fontanería realizáis?",
-      answer: "En Electricista, Lampista y Fontanero URGENCIA 24/7 realizamos todo tipo de trabajos de fontanería: reparación de fugas, instalación y cambio de grifería, instalación de sistemas de filtración, desatascos, cambio de sanitarios, instalación de calentadores y cualquier reparación urgente. Contamos con amplia experiencia avalada por nuestras 42 reseñas de 5 estrellas."
+      answer: "En Electricista, Lampista y Fontanero URGENCIA 24/7 realizamos todo tipo de trabajos de fontanería: reparación de fugas, instalación y cambio de grifería, instalación de sistemas de filtración, desatascos, cambio de sanitarios, instalación de calentadores y cualquier reparación urgente. Contamos con amplia experiencia avalada por nuestras 42 reseñas de 5 estrellas.",
+      question: "¿Qué tipo de trabajos de fontanería realizáis?"
     },
     {
-      question: "¿Instaláis sistemas de filtración de agua?",
-      answer: "Sí, somos expertos en la instalación de sistemas de filtración de agua. Instalamos filtros bajo fregadero, sistemas de osmosis y todo tipo de equipos de filtración. Te asesoramos sobre el sistema más adecuado para tu hogar y realizamos una instalación profesional con garantía de funcionamiento."
+      answer: "Sí, somos expertos en la instalación de sistemas de filtración de agua. Instalamos filtros bajo fregadero, sistemas de osmosis y todo tipo de equipos de filtración. Te asesoramos sobre el sistema más adecuado para tu hogar y realizamos una instalación profesional con garantía de funcionamiento.",
+      question: "¿Instaláis sistemas de filtración de agua?"
     },
     {
-      question: "¿Hacéis instalaciones eléctricas con boletín?",
-      answer: "Sí, realizamos todo tipo de instalaciones eléctricas cumpliendo la normativa vigente y entregamos los boletines eléctricos oficiales cuando son necesarios. Instalamos puntos de luz, enchufes, cuadros eléctricos y cualquier instalación que necesites con todas las garantías legales."
+      answer: "Sí, realizamos todo tipo de instalaciones eléctricas cumpliendo la normativa vigente y entregamos los boletines eléctricos oficiales cuando son necesarios. Instalamos puntos de luz, enchufes, cuadros eléctricos y cualquier instalación que necesites con todas las garantías legales.",
+      question: "¿Hacéis instalaciones eléctricas con boletín?"
     },
     {
-      question: "¿Dejáis todo limpio al terminar?",
-      answer: "Por supuesto. Nuestros clientes destacan en sus reseñas que dejamos todo en perfecto estado y completamente limpio al finalizar. Trabajamos con seriedad, orden y respeto por tu hogar. La limpieza final está incluida en todos nuestros servicios."
+      answer: "Por supuesto. Nuestros clientes destacan en sus reseñas que dejamos todo en perfecto estado y completamente limpio al finalizar. Trabajamos con seriedad, orden y respeto por tu hogar. La limpieza final está incluida en todos nuestros servicios.",
+      question: "¿Dejáis todo limpio al terminar?"
     },
     {
-      question: "¿Qué garantía ofrecéis en vuestros trabajos?",
-      answer: "Todos nuestros trabajos tienen garantía de calidad. Utilizamos materiales profesionales y técnicas contrastadas para asegurar reparaciones duraderas. Si surge cualquier problema relacionado con nuestro trabajo, volvemos sin coste adicional. Además, te entregamos factura detallada con toda la información del servicio realizado."
+      answer: "Todos nuestros trabajos tienen garantía de calidad. Utilizamos materiales profesionales y técnicas contrastadas para asegurar reparaciones duraderas. Si surge cualquier problema relacionado con nuestro trabajo, volvemos sin coste adicional. Además, te entregamos factura detallada con toda la información del servicio realizado.",
+      question: "¿Qué garantía ofrecéis en vuestros trabajos?"
     }
   ],
   seo: {
-    titleTemplate: "%s | Electricista, Lampista y Fontanero URGENCIA 24/7",
-    defaultTitle: "Electricista y Fontanero 24h Barcelona | Urgencias",
-    defaultDescription: "Electricista y fontanero de urgencia 24/7 en Barcelona. Reparamos fugas, averías eléctricas e instalamos grifería y sistemas de filtración. 5★ en Google. Llama al 666 52 66 61",
     keywords: [
       "electricista Barcelona",
       "fontanero Barcelona",
@@ -315,6 +312,9 @@ export const clinic = {
       "desatascos Barcelona",
       "Electricista Lampista Fontanero URGENCIA 24/7"
     ],
+    defaultTitle: "Electricista y Fontanero 24h Barcelona | Urgencias",
+    titleTemplate: "%s | Electricista, Lampista y Fontanero URGENCIA 24/7",
+    defaultDescription: "Electricista y fontanero de urgencia 24/7 en Barcelona. Reparamos fugas, averías eléctricas e instalamos grifería y sistemas de filtración. 5★ en Google. Llama al 666 52 66 61",
     ogImage: "/og-image.jpg"
   },
   legal: {
